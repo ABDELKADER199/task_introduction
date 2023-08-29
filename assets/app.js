@@ -1,5 +1,5 @@
 let div = document.querySelectorAll('div');
-
+let h1 = document.querySelectorAll("h1");
 
 div[0].addEventListener('mouseenter',
     function print(){
@@ -24,4 +24,29 @@ div[0].addEventListener('mouseenter',
         )
     }
 )
+
+div[0].addEventListener('mouseleave',
+function print(){
+    setTimeout(
+        function (){
+            div[1].remove(h1[2]);
+        },
+        2000
+    )
+    setTimeout(
+        function (){
+            div[1].remove(h1[1]);
+        },
+        4000
+    )
+
+    setTimeout(
+        function (){
+            div[1].remove(h1[0]);
+        },
+        6000
+    )
+}
+)
+
 
