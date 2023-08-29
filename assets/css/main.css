@@ -1,0 +1,33 @@
+*{
+    transition: all 2s;
+}
+
+
+
+.mouseenter{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(59, 58, 58);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.mouseenter p{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.item{
+    width: 100%;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    transition: all 2s;
+}
+
+
+.item h1{
+    transition: all 2s;
+    text-align: center;
+}
